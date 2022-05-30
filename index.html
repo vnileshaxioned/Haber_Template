@@ -10,17 +10,17 @@
     <div class="container">
       <header>
         <div class="wrapper">
-          <a href="#FIXME" target="_self" title="Haber Logo">
-            <img src="https://dummyimage.com/250x120/000/fff.jpg" alt="Haber-logo" />
-          </a>
+          <h1>
+            <a href="./index.html" class="header-logo" title="Haber Logo"><img src="https://dummyimage.com/250x120/000/fff.jpg" alt="Haber Logo" />Haber Logo</a>
+          </h1>
           <nav>
-            <ul>
-              <li><a href="#FIXME" target="_self" title="Home">HOME</a></li>
-              <li><a href="#FIXME" target="_self" title="About">ABOUT</a></li>
-              <li><a href="#FIXME" target="_self" title="Services">SERVICES</a></li>
-              <li><a href="#FIXME" target="_self" title="Projects">PROJECTS</a></li>
-              <li><a href="#FIXME" target="_self" title="Our Blog">OUR BLOG</a></li>
-              <li><a href="#FIXME" target="_self" title="Contacts">CONTACTS</a></li>
+            <ul class="menu-list">
+              <li class="menu"><a href="#FIXME" title="Home">HOME</a></li>
+              <li class="menu"><a href="#FIXME" title="About">ABOUT</a></li>
+              <li class="menu"><a href="#FIXME" title="Services">SERVICES</a></li>
+              <li class="menu"><a href="#FIXME" title="Projects">PROJECTS</a></li>
+              <li class="menu"><a href="#FIXME" title="Our Blog">OUR BLOG</a></li>
+              <li class="menu"><a href="#FIXME" title="Contacts">CONTACTS</a></li>
             </ul>
           </nav>
           <ul class="social-icon">
@@ -33,124 +33,198 @@
         </div>
       </header>
       <main>
-        <div class="banner">
+        <section class="banner">
           <div class="wrapper">
-            <div class="slider">
-              <div class="slider-images">
-                <img src="https://dummyimage.com/600x400/000/fff.jpg" alt="slider-image-1">
-                <img src="https://dummyimage.com/600x400/000/fff.jpg" alt="slider-image-2">
-                <img src="https://dummyimage.com/600x400/000/fff.jpg" alt="slider-image-3">
-              </div>
-              <div class="slider-action">
-                <button class="left-arrow">left arrow</button>
-                <p>WE MEET YOUR FINANCIAL INVESTMENT NEEDS</p>
-                <button class="right-arrow">right arrow</button>
-              </div>
-            </div>
+            <ul class="slider">
+              <li>
+                <figure>
+                  <img src="https://dummyimage.com/600x400/000/fff.jpg" alt="Slider Image" />
+                </figure>
+                <h2>WE MEET YOUR FINANCIAL INVESTMENT NEEDS</h2>
+              </li>
+              <li>
+                <figure>
+                  <img src="https://dummyimage.com/600x400/000/fff.jpg" alt="Slider Image" />
+                </figure>
+                <h2>WE MEET YOUR FINANCIAL INVESTMENT NEEDS</h2>
+              </li>
+              <li>
+                <figure>
+                  <img src="https://dummyimage.com/600x400/000/fff.jpg" alt="Slider Image" />
+                </figure>
+                <h2>WE MEET YOUR FINANCIAL INVESTMENT NEEDS</h2>
+              </li>
+            </ul>
+            <ul class="slider-action">
+              <li><a href="#FIXME" class="previous-button" title="Previous Slide">Previous Slide</a></li>
+              <li><a href="#FIXME" class="next-button" title="Next Slide">Next Slide</a></li>
+            </ul>
           </div>
-        </div>
+        </section>
         <section class="our-clients">
           <div class="wrapper">
-            <h2>OUR FOCUS IS OUR CLIENTS' SUCCESS</h2>
-            <div class="outter-box">
-              <div class="inner-box">
-                <img src="https://dummyimage.com/80x80/000/fff.jpg" alt="image1">
-                <h4>PRIVATE BANKING</h4>
-                <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, exercitation ullamclaboris nisi ut aliquimex ea commodo consequat.</p>
-                <button class="read-more-button">Read More</button>
-              </div>
-              <div class="inner-box">
-                <img src="https://dummyimage.com/80x80/000/fff.jpg" alt="image2">
-                <h4>TIME SAVING TIPS</h4>
-                <p>Asum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, exercitation laboris nisi ut massa aliquip</p>
-                <button class="read-more-button">Read More</button>
-              </div>
-              <div class="inner-box">
-                <img src="https://dummyimage.com/80x80/000/fff.jpg" alt="image3">
-                <h4>BUDGETING TIPS</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, exercitation ullamco ullamco.</p>
-                <button class="read-more-button">Read More</button>
-              </div>
-              <div class="inner-box">
-                <img src="https://dummyimage.com/80x80/000/fff.jpg" alt="image4">
-                <h4>MONEY SAVING IDEAS</h4>
-                <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, exercitation ullamco laboris nisi ut aliquip</p>
-                <button class="read-more-button">Read More</button>
-              </div>
-            </div>
+            <h3>OUR FOCUS IS OUR CLIENTS' SUCCESS</h3>
+            <ul class="outter-box">
+              <li class="inner-box">
+                <article>
+                  <h3>PRIVATE BANKING</h3>
+                  <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, exercitation ullamclaboris nisi ut aliquimex ea commodo consequat.</p>
+                  <a href="#FIXME" class="read-more-button" target="_blank" title="Read More">Read More</a>
+                </article>
+              </li>
+              <li class="inner-box">
+                <article>
+                  <h3>TIME SAVING TIPS</h3>
+                  <p>Asum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, exercitation laboris nisi ut massa aliquip</p>
+                  <a href="#FIXME" class="read-more-button" target="_blank" title="Read More">Read More</a>
+                </article>
+              </li>
+              <li class="inner-box">
+                <article>
+                  <h3>BUDGETING TIPS</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, exercitation ullamco ullamco.</p>
+                  <a href="#FIXME" class="read-more-button" target="_blank" title="Read More">Read More</a>
+                </article>
+              </li>
+              <li class="inner-box">
+                <article>
+                  <h3>MONEY SAVING IDEAS</h3>
+                  <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, exercitation ullamco laboris nisi ut aliquip</p>
+                  <a href="#FIXME" class="read-more-button" target="_blank" title="Read More">Read More</a>
+                </article>
+              </li>
+            </ul>
           </div>
         </section>
         <section class="advice">
           <div class="wrapper">
-            <h2>ADVICE ON HOW TO MAKE WISE INVESTMENTS</h2>
+            <h3>ADVICE ON HOW TO MAKE WISE INVESTMENTS</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-            <div class="outer-box">
-              <div class="inner-box">
-                <img src="https://dummyimage.com/400x250/000/fff.jpg" alt="image1">
-                <div class="content">
-                  <h3>Aut perferendis</h3>
+            <ul class="outter-box">
+              <li class="inner-box">
+                <figure>
+                  <img src="https://dummyimage.com/400x250/000/fff.jpg" alt="Aut perferendis" />
+                </figure>
+                <article>
+                  <h4>Aut perferendis</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore, et dolore magna aliqua. Ut enim ad minim</p>
-                  <button class="right-arrow-button">right arrow</button>
-                </div>
-              </div>
-              <div class="inner-box">
-                <img src="https://dummyimage.com/400x250/000/fff.jpg" alt="image2">
-                <div class="content">
-                  <h3>Laoreetum</h3>
+                  <a href="#FIXME" target="_blank" title="Read More">Read More</a>
+                </article>
+              </li>
+              <li class="inner-box">
+                <figure>
+                  <img src="https://dummyimage.com/400x250/000/fff.jpg" alt="Laoreetum" />
+                </figure>
+                <article>
+                  <h4>Laoreetum</h4>
                   <p>Massa dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore est et dolore magna aliqua. Ut enim ad</p>
-                  <button class="right-arrow-button">right arrow</button>
-                </div>
-              </div>
-              <div class="inner-box">
-                <img src="https://dummyimage.com/400x250/000/fff.jpg" alt="image3">
-                <div class="content">
-                  <h3>Fuod maxime</h3>
+                  <a href="#FIXME" target="_blank" title="Read More">Read More</a>
+                </article>
+              </li>
+              <li class="inner-box">
+                <figure>
+                  <img src="https://dummyimage.com/400x250/000/fff.jpg" alt="Fuod maxime" />
+                </figure>
+                <article>
+                  <h4>Fuod maxime</h4>
                   <p>Ed dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua Ut enim ad minim veniam</p>
-                  <button class="right-arrow-button">right arrow</button>
-                </div>
-              </div>
-            </div>
-            <div class="advice-top">
-              <div class="fresh-investment-solutions">
-                <h2>Fresh Investment Solutions!</h2>
-                <ul>
-                  <li><i>gear-icon</i> Dolor sit amet, consectetur adipisicing</li>
-                  <li>Sed do eiusmod tempor incididunt ut labore</li>
-                  <li><i>gear-icon</i> Et dolore magna aliquat enim ad minim veniam</li>
-                  <li><i>gear-icon</i> Duis nostrud exercitation ullamco laboris</li>
-                  <li><i>gear-icon</i> Ex ea commodo consequat</li>
-                </ul>
-                <button class="load-more-button">Load more</button>
-              </div>
-              <div class="learning-to-save-money">
-                <h2>Learning to Save Money</h2>
-                <ul>
-                  <li><i>gear-icon</i> Lorem ipsum dolor sit amet, consectetur adipisicing</li>
-                  <li><i>gear-icon</i> Sed do eiusmod tempor incididunt ut labore</li>
-                  <li><i>gear-icon</i> Ut enim ad minim veniam quis nostrud exercitation</li>
-                </ul>
-                <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                <button class="load-more-button">Load more</button>
-              </div>
-            </div>
-            <div class="advice-bottom">
-              <button class="advice-left-arrow">left arrow</button>
-              <ul class="advice-slider">
-                <li><img src="https://dummyimage.com/220x120/000/fff.jpg" alt="stream-image"></li>
-                <li><img src="https://dummyimage.com/220x120/000/fff.jpg" alt="green-image"></li>
-                <li><img src="https://dummyimage.com/220x120/000/fff.jpg" alt="rapid-image"></li>
-                <li><img src="https://dummyimage.com/220x120/000/fff.jpg" alt="ourelio-image"></li>
-                <li><img src="https://dummyimage.com/220x120/000/fff.jpg" alt="dorian-image"></li>
-                <li><img src="https://dummyimage.com/220x120/000/fff.jpg" alt="millenium"></li>
-              </ul>
-              <button class="advice-right-arrow">right arrow</button>
-            </div>
+                  <a href="#FIXME" target="_blank" title="Read More">Read More</a>
+                </article>
+              </li>
+            </ul>
           </div>
         </section>
+        <section class="investment-tips">
+          <div class="wrapper">
+            <ul class="outter-box">
+              <li class="inner-box">
+                <article>
+                  <h5>Fresh Investment Solutions!</h5>
+                  <ul class="investment-solutions">
+                    <li>
+                      <p class="gear-icon">Dolor sit amet, consectetur adipisicing</p>
+                    </li>
+                    <li>
+                      <p>Sed do eiusmod tempor incididunt ut labore</p>
+                    </li>
+                    <li>
+                      <p class="gear-icon">Et dolore magna aliquat enim ad minim veniam</p>
+                    </li>
+                    <li>
+                      <p class="gear-icon">Duis nostrud exercitation ullamco laboris</p>
+                    </li>
+                    <li>
+                      <p class="gear-icon">Ex ea commodo consequat</p>
+                    </li>
+                  </ul>
+                  <a href="#FIXME" class="load-more-button" target="_blank" title="Load More">Load More</a>
+                </article>
+              </li>
+              <li class="inner-box">
+                <article>
+                  <h5>Learning to Save Money</h5>
+                  <ul class="seve-money">
+                    <li>
+                      <p class="gear-icon">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                    </li>
+                    <li>
+                      <p class="gear-icon">Sed do eiusmod tempor incididunt ut labore</p>
+                    </li>
+                    <li>
+                      <p class="gear-icon">Ut enim ad minim veniam quis nostrud exercitation</p>
+                    </li>
+                  </ul>
+                  <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                  <a href="#FIXME" class="load-more-button" target="_blank" title="Load More">Load More</a>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="our-clients">
+          <div class="wrapper">
+            <ul class="slider">
+              <li>
+                <figure>
+                  <img src="https://dummyimage.com/220x120/000/fff.jpg" alt="Stream" />
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img src="https://dummyimage.com/220x120/000/fff.jpg" alt="Green" />
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img src="https://dummyimage.com/220x120/000/fff.jpg" alt="Rapid" />
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img src="https://dummyimage.com/220x120/000/fff.jpg" alt="Ourelio" />
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img src="https://dummyimage.com/220x120/000/fff.jpg" alt="Dorian" />
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img src="https://dummyimage.com/220x120/000/fff.jpg" alt="Millenium" />
+                </figure>
+              </li>
+            </ul>
+            <ul class="slider-action">
+              <li><a href="#FIXME" class="previous-button" title="Previous Slide">Previous Slide</a></li>
+              <li><a href="#FIXME" class="next-button" title="Next Slide">Next Slide</a></li>
+            </ul>
+          </div>
+        </div>
         <section class="quick-contact">
           <div class="wrapper">
-            <h2>QUICK CONTACT</h2>
-            <form action="#FIXME">
+            <h5>QUICK CONTACT</h5>
+            <form action="#FIXME" method="post">
               <div class="outter-box">
                 <div class="inner-box">
                   <div class="form-group">
@@ -170,24 +244,28 @@
                 </div>
               </div>
               <div class="form-group">
-                <input type="submit" name="send" class="button" value="SEND">
+                <input type="submit" name="send" class="send-button" value="SEND">
               </div>
             </form>
-            <div class="contact-information">
-              <ul>
-                <li><img src="https://dummyimage.com/80x80/000/fff.jpg" alt="address"> <a href="#FIXME" target="_blank" title="New York 9870 St Vincent Glasgow">NEW YORK 9870 ST VINCENT GLASGOW</a></li>
-                <li><img src="https://dummyimage.com/80x80/000/fff.jpg" alt="mail"> <a href="mailto:contact@demolink.org" target="_blank" title="contact@demolink.org">CONTACT@DEMOLINK.ORG</a></li>
-                <li><img src="https://dummyimage.com/80x80/000/fff.jpg" alt="telephone"> <a href="tel:+18006036035" target="_self" title="Call Us: +1 800 603 6035">CALL US: +1 800 603 6035</a></li>
-              </ul>
-            </div>
+            <ul class="outter-box">
+              <li class="inner-box">
+                <address>NEW YORK 9870 ST VINCENT GLASGOW</address>
+              </li>
+              <li class="inner-box">
+                <a href="mailto:contact@demolink.org" target="_blank" title="contact@demolink.org">CONTACT@DEMOLINK.ORG</a>
+              </li>
+              <li class="inner-box">
+                <a href="tel:+18006036035" target="_self" title="Call Us: +1 800 603 6035">CALL US: +1 800 603 6035</a>
+              </li>
+            </ul>
           </div>
         </section>
       </main>
       <footer>
         <div class="wrapper">
-          <div class="outter-box">
-            <div class="left">
-              <p>Haber</p> <span>&copy; 2018 Privacy policy</span>
+          <ul class="outter-box">
+            <li class="inner-box">
+              <h6>Haber</h6> <span>&copy; 2018 Privacy policy</span>
               <ul>
                 <li><a href="#FIXME" target="_blank" title="Twitch">twitch</a></li>
                 <li><a href="#FIXME" target="_blank" title="Twitter">twitter</a></li>
@@ -196,11 +274,11 @@
                 <li><a href="#FIXME" target="_blank" title="Facebook">facebook</a></li>
                 <li><a href="#FIXME" target="_blank" title="Google +">google +</a></li>
               </ul>
-            </div>
-            <div class="right">
+            </li>
+            <li class="inner-box">
               <img src="https://dummyimage.com/600x250/000/fff.jpg" alt="map-image">
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
       </footer>
     </div>
